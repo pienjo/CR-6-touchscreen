@@ -10,7 +10,7 @@ Write-Host "2 . If any screens are updated, make sure you've re-generated the IC
 $BuildDir = "build"
 $BuildTmpDir = "build\tmp"
 
-$ProjectFolder = "src/DWIN"
+$ProjectFolder = "src/DWIN-landscape"
 $FirmwareFolderName = "DWIN_SET"
 
 $OutputPath = "$BuildDir/CR-6-touchscreen-$(Get-Date -Format "yyyy-MM-dd").zip"
